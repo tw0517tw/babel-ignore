@@ -10,13 +10,14 @@ install:
 # - choco install yarn
   - yarn --version
   - yarn
+  - yarn run build
 
 cache:
   - node_modules
   - "%LOCALAPPDATA%\\Yarn"
 
 test_script:
-  - npm run test
+  - yarn run test
 
 # Don't actually build.
 build: off

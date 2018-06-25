@@ -11,9 +11,10 @@ cache:
 
 install:
   - yarn
+  - yarn run build
 
 script:
-  - npm run test
+  - yarn run test
 
 notifications:
   email:
