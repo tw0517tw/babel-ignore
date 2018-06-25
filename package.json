@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "babel src -d lib --ignore __tests__",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.51",
+    "@babel/core": "^7.0.0-beta.51"
+  },
+  "dependencies": {
+    "globby": "^8.0.1"
+  }
+}
