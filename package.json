@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "babel src -d lib --ignore __tests__",
+    "build": "babel src -d lib --ignore src/__tests__",
     "test": "node test.js"
   },
   "devDependencies": {
